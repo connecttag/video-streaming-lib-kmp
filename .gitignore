@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+.navigation/
+captures/
+externalNativeBuild/
+.externalNativeBuild/
+.cxx/
+cmake-build-debug/
+
+# Local configuration
+local.properties
+secrets.properties
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.log
+*.hprof
+*.class
+
+# Kotlin Gradle plugin data
+.kotlin/
